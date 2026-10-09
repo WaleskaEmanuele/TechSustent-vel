@@ -6,34 +6,29 @@
 
 .container{
     display: flex;
-    align-items: center;
-    background-color: rgb(127, 255, 127);
-    height: 120px;
+    background-color: rgb(101, 163, 101);
+    height: 80px;
 }
 
 .container-titulos{
     display: flex;
-    align-items: center;
     color: rgb(0, 0, 0);
     margin-left: 30px;
+        align-items: center;
 }
 h1{
-    color: rgb(0, 150, 0);
+    color: rgb(0, 0, 0);
 }
 .logo img{
-    height: 50px;
-    width: 60px;
+    height: 70px;
+    width: 80px;
     margin-left: 40px;
-}
-.imagem img{
-    width: 100%;
-    height: auto;
+    margin-top: 30px;
 }
 .card{
-    width: 500px;
-    height: 200px;
-    background-color: rgb(194, 255, 194);
-    align-items: center;
+    width: 400px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
     margin-left: 20px;
     margin-top: 10px;
 }
@@ -42,10 +37,12 @@ h1{
     margin-top: 10px;
 }
 img{
+    margin-top: 50px;
     width: 300px;
 }
 .cardsupremo{
-    align-items: center;
-    background-color: aqua;
-    width: 200px;
+    display: flex;
+    background-color: rgb(101, 163, 101);
+    width: 2000px;
+    height: 1300px;
 }
