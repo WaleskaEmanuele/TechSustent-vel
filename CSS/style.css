@@ -2,7 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
-
+body{
+    background-color: rgb(218, 255, 225);
+}
 
 .container{
     display: flex;
@@ -31,9 +33,8 @@ h1{
 }
 .card{
     width: 500px;
-    height: 200px;
+    height: 420px;
     background-color: rgb(194, 255, 194);
-    align-items: center;
     margin-left: 20px;
     margin-top: 10px;
 }
@@ -46,8 +47,10 @@ img{
 }
 .cardsupremo{
     display: flex;
-    align-items: center;
-    background-color: aqua;
-    width: 2000px;
-    height: 1300px;
+    justify-content: center;
+
+    width: 100vr;
+    height: 900px;
+    flex-wrap: wrap;
+    
 }
